@@ -8,9 +8,4 @@ class Contact {
     this.name,
     this.accountNumber,
   );
-
-  @override
-  String toString() {
-    return 'Contact{name: $name, accountNumber: $accountNumber}';
-  }
 }
